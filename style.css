@@ -1,0 +1,157 @@
+/*--FILE: http://weblab.cs.uml.edu/~lreynold/style.css
+91.61 GUI Programming I
+Assignment 4: Styling Web Page
+Liam Reynolds, University of MA, Lowell. CS.
+liam_reynolds@student.uml.edu
+Copyright(c) 10 October 2018. All rights reserved.
+*/
+#head{  /* header information is styled */
+  margin: -10px -100px 0px -100px;
+  padding: 5px;
+}
+hr.headdivider{ /* hr is used to divide header and page content */
+  border-top: 1.25px solid black;
+}
+h1{ /* name and assignment header are stylized */
+  line-height: .6;
+  text-align: center;
+  font-family: georgia;
+  font-weight: 800;
+}
+h2{
+  line-height: .6;
+  font-size: 110%;
+}
+body p.email{ /* class made for specific email text format */
+  line-height: .6;
+  font-style: italic;
+}
+body p{
+  line-height: .4;
+  text-align: center;
+  font-size : 85%;
+  font-family: helvetica;
+}
+body{
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 45px;
+  min-width: 750px;
+  min-height: 500px;
+}
+#side{  /* float property is used for sidebar */
+  position: relative;
+  float:right;
+}
+#portrait{  /* order of sidebar elements are set with z-index */
+  z-index: 1;
+  height: 150px;
+  margin-left: 105px;
+  margin-top: 5px;
+  clip-path: circle(40%);
+}
+blockquote{
+  z-index: 2;
+  width: 240px;
+  margin-top: -2px;
+  margin-right: 6px;
+  padding: 0px 2px 20px 14px;
+  text-indent: 10px;
+  line-height: 115%;
+  font-size: 90%;
+  font-family: helvetica;
+  text-align: left;
+}
+hr.sidedivider{ /* bio is seperated from rest of sidebar content */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 20px;
+  /* https://css-tricks.com/examples/hrs/ */
+}
+h4{
+  font-size: 110%;
+  margin-left: -10px;
+  font-family: helvetica;
+  color: #333520;
+}
+.courses{ /* course and experience lists is placed under appropriate headers */
+  line-height: 1.25;
+  margin-left: -50px;
+  margin-top: -5px;
+  text-align: left;
+  list-style: none;
+}
+.experience{
+  margin-left: -20px;
+}
+.jobdesc{
+  line-height: normal;
+  font-weight: 500;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 95%;
+  font-family: georgia;
+}
+hr.enddivider{  /* hr divides sidebar and validation tags */
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  /* https://css-tricks.com/examples/hrs/ */
+}
+#valid{
+  margin-top: 10px;
+}
+.copyright{
+  font-size: 65%;
+  font-style: italic;
+  margin-left: -100px;
+}
+#assign{  /* assignment section uses distinctive background color */
+  margin: 20px 300px 0px 5px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 16px;
+  background-color: #F8F8F8;
+  font-family: helvetica;
+  line-height: 200%;
+}
+h3{
+  font-family: georgia;
+  font-size: 130%;
+  font-weight: 800;
+}
+#list a:link{
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+#list a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  color: #E8E8E8;
+}
+#list{  /* assignments are listed and link properties are set */
+  font-weight: 500;
+  font-size: 100%;
+  list-style-type: upper-roman;
+}
+.date{
+  display: inline;
+  float: right;
+  font-size: 80%;
+  font-style: italic;
+  font-weight: 500;
+  margin-right: 6px;
+}
+.desc{
+  line-height: normal;
+  font-weight: 500;
+  margin-left: 20px;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 90%;
+  font-family: georgia;
+}
