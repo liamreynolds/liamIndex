@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+  <!--FILE: http://weblab.cs.uml.edu/~lreynold/index.html
+  91.61 GUI Programming I
+  Assignment 4: Styling Web Page
+  Liam Reynolds, University of MA, Lowell. CS.
+  liam_reynolds@student.uml.edu
+    This website is used as an index that links to other completed assignments.
+  The assignment due date is listed along with their titles and a short description of them.
+  My contact info is listed along with courses and my work experiences. This site is stylized
+  using an external CSS file, "style.css".
+  Copyright(c) 10 October 2018. All rights reserved.-->
+<html lang = "en"><!--specifies language of code-->
+  <head>
+    <meta charset = "utf-8"><!--defines character set of file-->
+    <link rel = "stylesheet" type = "text/css" href= "css/style.css">
+    <title> Liam's Website </title><!--page title is set using title tags-->
+  </head>
+  <body>
+    <div id = "head">
+        <h1>Liam Reynolds</h1>
+          <p class = "email">liam_reynolds@student.uml.edu</p><!--specific styling for email includes italicized text-->
+          <p> 91.61 GUI Programming I </p><!--class listed, stylized as paragraph-->
+          <p>University of MA, Lowell</p><!--school name listed, stylized as paragraph-->
+    </div>
+    <hr class = "headdivider">
+
+    <div id = "side"> <!--horizontal line to seperate header from page content-->
+        <img id = "portrait" src="IMG_3490.jpg" alt="liamPortrait">
+      <blockquote> <!-- blockquote tag is used to signify sidebar -->
+          This website in its current state represents my
+          foundational knowledge of HTML and CSS. Assignments from GUI Programming
+          91.61 will be linked to from this index as they are completed.
+        <hr class = "sidedivider">
+        <h4>Courses</h4> <!-- courses are listed under appropriate header -->
+            <ul class = "courses">
+                <li> Computing I-IV </li>
+                <li> Foundations of CS </li>
+                <li> Post-digital Aesthetics </li>
+                <li> Computer Architecutre </li>
+            </ul>
+        <h4>Experience</h4> <!-- jobs are listed under appropriate header -->
+            <ul class = "experience">
+                <li> Nuance Communications
+                  <p class = "jobdesc"> Responsible for computer hardware repair and replacement, item inventories,
+                  and customer service projects. </p> <!-- brief job description -->
+                </li>
+              </ul>
+              <hr class = "enddivider">
+              <img id = "valid" src="valid-html401.png" alt = "Valid .html">
+              <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!"/></a> <!-- http://jigsaw.w3.org/css-validator/validator -->
+              <br>
+              <p class ="copyright">10 October 2018. All rights reserved. </p>
+        </blockquote>
+      </div>
+
+    <div id = "assign"> <!-- section for assignments to be listed -->
+        <h3>Assignments</h3>
+            <ul id = "list"> <!-- each list element listed with italicized date and brief description -->
+              <li>Course Setup
+                <p class = "date"> 11 Sep. 2018 </p>
+                <p class = "desc"> Course registration was completed and necessary software
+                  was installed to machine.</p></li>
+              <li>First Web Page
+                <p class = "date"> 18 Sep. 2018 </p>
+                <p class = "desc"> The first version of this site that used basic .html styling
+                  to format text was created. Unlike later iterations, this version did not use an external
+                  CSS style sheet.</p></li>
+              <li><a href = "pacific.html"> Pacific Trails Resort</a> <!-- links are provided if availible -->
+                <p class = "date"> 29 Sep. 2018 </p>
+                <p class = "desc"> The provided .html file is styled with various CSS formatting methods using
+      	           an external file. A grid layout is applied to the website as various sections
+      	           are allocated for each piece of the site. CSS methods are applied
+      	           to use images and gradient colors for backgrounds and text boxes.</p></li>
+              <li>Styling Web Page with CSS
+                <p class = "date"> 10 Oct. 2018 </p>
+                <p class = "desc"> The index site set up in the first assignment is styled using an
+                  external style sheet. Content was added that describes each assignment and provides a link to them
+                  if they're availible. Information including the courses I've taken and my work experiences are
+                  listed on the sidebar using the "float" property. A portrait image is linked and displayed at the
+                  top of the sidebar. </p>
+              </li>
+            </ul>
+      </div>
+    </body>
+</html>
