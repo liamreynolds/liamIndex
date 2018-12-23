@@ -29,7 +29,7 @@ body p.email{ /* class made for specific email text format */
 body p{
   line-height: .4;
   text-align: center;
-  font-size : 85%;
+  font-size : 80%;
   font-family: helvetica;
 }
 body{
