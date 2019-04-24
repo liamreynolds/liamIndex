@@ -141,7 +141,7 @@ h3{
 .date{
   display: inline;
   float: right;
-  font-size: 80%;
+  font-size: 87%;
   font-style: italic;
   font-weight: 500;
   margin-right: 6px;
@@ -152,6 +152,6 @@ h3{
   margin-left: 0px;
   text-align: left;
   /*text-indent: 10px;*/
-  font-size: 88%;
+  font-size: 86%;
   font-family: helvetica;
 }
